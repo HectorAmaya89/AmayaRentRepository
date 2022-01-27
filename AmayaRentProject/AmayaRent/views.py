@@ -8,15 +8,15 @@ def inicio(request):
     return render(request, 'AmayaRent/inicio.html')
 
 
-def aboutus(request):
+def quienes_somos(request):
     
-    return render(request, 'AmayaRent/aboutus.html')
+    return render(request, 'AmayaRent/quienes_somos.html')
 
 
-def shop(request):
+def propiedades(request):
     
-    return render(request, 'AmayaRent/shop.html')
+    return render(request, 'AmayaRent/propiedades.html')
 
-def contactus(request):
+def contacto(request):
     
-    return render(request, 'AmayaRent/contactus.html')
+    return render(request, 'AmayaRent/contacto.html')

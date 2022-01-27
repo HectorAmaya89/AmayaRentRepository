@@ -7,7 +7,7 @@ from AmayaRent import views
 urlpatterns = [
     path('', views.inicio, name = "inicio"),
     # path('aptotemporales', views.AptoTemporales),
-    path('aboutus', views.aboutus, name = "aboutus"),
-    path('shop', views.shop, name = "shop"),
-    path('contactus', views.contactus, name = "contactus"),
+    path('quienes_somos', views.quienes_somos, name = "quienes_somos"),
+    path('propiedades', views.propiedades, name = "propiedades"),
+    path('contacto', views.contacto, name = "contacto"),
 ]
