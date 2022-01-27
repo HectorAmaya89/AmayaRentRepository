@@ -1,0 +1,31 @@
+{% extends "AmayaRent/padre.html" %}
+{% load static %}
+{% block contenidoQueCambia %}
+<!-- mete lo que quieras -->
+
+
+
+
+
+<form action="contactus" method="POST">{% csrf_token %}
+    <p>Nombre: <input type="text" name="nombre"></p>
+
+    <p>Contacto: <input type="number" name="contacto"></p>
+
+    <input type="submit" value="Enviar">
+
+
+</form>
+<h1>¡¡¡¡Página de contacto en construcción!!!!</h1>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
